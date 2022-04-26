@@ -53,7 +53,7 @@ function RegisterPage() {
       .then(response => {
         if(response.payload.success) {
           navigate('/login')
-        }else{
+        } else {
           alert('Failed to sign up')
         }
       })

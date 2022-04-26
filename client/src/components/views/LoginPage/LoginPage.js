@@ -32,7 +32,7 @@ function LoginPage() {
       .then(response => {
         if(response.payload.loginSuccess) {
           navigate('/')
-        }else{
+        } else {
           alert('Error')
         }
       })
